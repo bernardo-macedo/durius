@@ -1,4 +1,6 @@
-Draft for Durius' website.
+Tailwind practice:
+
+Durius website
 
 Technologies:
 HTML
