@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -250,3 +251,222 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Durius - Atlético Clube da Pesqueira</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="bg-slate-50">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto py-6 px-6 md:px-12">
+      <div class="flex items-center justify-between">
+        <!--Logo-->
+        <div class="pt-2">
+          <img
+            src="img/durius-logo.png"
+            alt="Logo image"
+            class="w-20 md:w-24"
+          />
+        </div>
+        <!--Menu items-->
+        <div class="hidden md:flex space-x-6">
+          <a href="" class="hover:text-darkGrayishBlue">Sobre nós</a>
+          <a href="" class="hover:text-darkGrayishBlue">Eventos</a>
+          <a href="" class="hover:text-darkGrayishBlue">Sócios</a>
+        </div>
+        <!--Social media icons-->
+        <div class="hidden md:flex justify-center space-x-4">
+          <a href="">
+            <img src="img/icons8-facebook.svg" alt="" class="h-8" />
+          </a>
+          <a href="">
+            <img src="img/icons8-instagram.svg" alt="" class="h-8" />
+          </a>
+        </div>
+
+        <!--Hamburguer icon-->
+        <button
+          id="menu-btn"
+          class="block hamburguer md:hidden focus:outline-none"
+        >
+          <span class="hamburguer-top"></span>
+          <span class="hamburguer-middle"></span>
+          <span class="hamburguer-bottom"></span>
+        </button>
+      </div>
+
+      <!--Mobile menu-->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="" class="hover:text-darkGrayishBlue">Sobre nós</a>
+          <a href="" class="hover:text-darkGrayishBlue">Eventos</a>
+          <a href="" class="hover:text-darkGrayishBlue">Sócios</a>
+          <a href="">
+            <img src="img/icons8-facebook.svg" alt="" class="h-8" />
+          </a>
+          <a href="">
+            <img src="img/icons8-instagram.svg" alt="" class="h-8" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero-->
+    <section id="hero">
+      <div
+        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 mb-32 space-y-0 md:px-12 md:space-y-0"
+      >
+        <div class="flex flex-col space-y-12 mt-6 md:mt-0 md:w-1/2">
+          <h1
+            class="max-w-md text-5xl font-bold text-center md:text-5xl md:text-left"
+          >
+            O teu destino para desportos de aventura!
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien
+            lorem, rhoncus in orci nec, tristique tincidunt elit. Quisque id
+            ipsum in leo congue ornare. Maecenas nec accumsan tortor.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-primaryRed rounded-full baseline hover:bg-primaryLightRed"
+              >Inscreve-te</a
+            >
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <img src="img/hero-image-min.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--Next event promo CTA-->
+    <section id="cta" class="bg-primaryRed">
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-16 mx-auto space-y-12 md:px-12 md:flex-row md:space-y-0"
+      >
+        <div>
+          <h2
+            class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+          >
+            III Trail das Amendoeiras
+          </h2>
+          <p class="text-2xl text-white text-center md:text-left">3 de Março</p>
+        </div>
+        <div>
+          <a
+            href=""
+            class="p-3 px-6 pt-2 text-primaryRed bg-white rounded-full baseline shadow-2xl hover:bg-slate-300"
+            >Inscreve-te aqui</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--Next events-->
+    <section id="events">
+      <div class="maxw-6xl px-12 mx-auto mt-32 text-center">
+        <h2 class="text-4xl font-bold text-center">Próximos eventos</h2>
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 mb-32 md:w-1/3"
+          >
+            <img
+              src="img/photo-event-1.jpg"
+              alt=""
+              class="w-64 -mt-14 rounded-lg"
+            />
+            <h5 class="text-lg font-bold">III Trail das Amendoeiras</h5>
+            <p class="text-sm text-gray-500">3 de Março</p>
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-primaryRed rounded-full baseline hover:bg-primaryLightRed"
+              >Inscreve-te</a
+            >
+          </div>
+
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 mb-32 md:w-1/3"
+          >
+            <img
+              src="img/photo-event-2.jpg"
+              alt=""
+              class="w-64 -mt-14 rounded-lg"
+            />
+            <h5 class="text-lg font-bold">II Passeio de BTT</h5>
+            <p class="text-sm text-gray-500">1 de Maio</p>
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-primaryRed rounded-full baseline hover:bg-primaryLightRed"
+              >Inscreve-te</a
+            >
+          </div>
+
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 mb-32 md:w-1/3"
+          >
+            <img
+              src="img/photo-event-3.jpg"
+              alt=""
+              class="w-64 -mt-14 rounded-lg"
+            />
+            <h5 class="text-lg font-bold">III Trail das Amendoeiras</h5>
+            <p class="text-sm text-gray-500">24 de junho</p>
+            <a
+              href=""
+              class="p-3 px-6 pt-2 text-white bg-primaryRed rounded-full baseline hover:bg-primaryLightRed"
+              >Inscreve-te</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-veryDarkBlue">
+      <div
+        class="container flex flex-col-reverse justify-between px-12 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+        >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2024, All Rights Reserved
+          </div>
+          <div>
+            <img src="img/durius-logo-gold.png" class="w-32" alt="" />
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between">
+          <div class="flex justify-center md:justify-end space-x-4">
+            <a href="">
+              <img src="img/icon-facebook.svg" alt="" class="h-8" />
+            </a>
+            <a href="">
+              <img src="img/icon-instagram.svg" alt="" class="h-8" />
+            </a>
+          </div>
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2024, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+>>>>>>> e5c3b1da7b9be7fcae392180a4119f6e0273838f
